@@ -38,6 +38,9 @@ div.photos {
     letter-spacing: -0.03em;
     position: absolute;
 
+
+    transform: translate(-50%, -80%); 
+
     display: inline-block;
     border-radius: 50%;
     background: #ffffff;
