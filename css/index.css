@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  height: 78vh;
+  background-image: url("../images/home/homapage-banner-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .nav-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+header .nav-container nav {
+  margin: 10px 20px 0px 20px;
+  display: flex;
+  gap: 40px;
+}
+header .nav-container nav li {
+  display: inline-block;
+}
+header .nav-container nav a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */
