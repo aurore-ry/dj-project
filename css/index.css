@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Poppins";
-  src: url("https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2");
-  format: "woff2";
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
 body {
   margin: 0 auto;
   font-family: "Poppins";
@@ -10,6 +6,7 @@ body {
 
 header {
   margin: 0 auto;
+  padding: 10px 30px;
   width: 100%;
   height: 78vh;
   background-image: url("../images/home/homapage-banner-img.jpg");
@@ -40,7 +37,7 @@ header .nav-container nav a {
   font-weight: bolder;
 }
 header .nav-container nav a a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 238, 238, 0.247);
 }
 header .single-container {
   margin: 400px;
