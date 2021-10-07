@@ -1,0 +1,46 @@
+
+div.photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    }
+
+    div.photos :hover {
+
+
+
+    }
+    div.photos a {
+    font-size: 24px;
+
+    padding: 25px 5px;
+    width: 85px;
+    height: 85px;
+    color: #151515;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    letter-spacing: -0.03em;
+    position: absolute;
+
+    display: inline-block;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 0 10px rgb(255 255 255 / 40%);
+    cursor: pointer;
+    }

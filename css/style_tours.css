@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+div.nav {
+display: flex;
+
+    justify-content: center;
+    padding: 0 30px;
+    color: #6a868e;
+    font-weight: 600;
+    padding: 115px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 57px 0;
+    
+    background: #212121;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+a:hover {
+    color: #8121e0;
+}
+a:active {
+    color: white;
+}
