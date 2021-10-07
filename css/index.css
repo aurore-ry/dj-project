@@ -8,7 +8,7 @@ header {
   margin: 0 auto;
   padding: 10px 30px;
   width: 100%;
-  height: 78vh;
+  height: 70vh;
   background-image: url("../images/home/homapage-banner-img.jpg");
   background-size: cover;
   background-position: center;
@@ -36,11 +36,11 @@ header .nav-container nav a {
   letter-spacing: 0.02em;
   font-weight: bolder;
 }
-header .nav-container nav a a:hover {
-  color: rgba(255, 238, 238, 0.247);
+header .nav-container nav a:hover {
+  color: rgba(240, 239, 239, 0.452);
 }
 header .single-container {
-  margin: 400px;
+  margin: 388px;
   padding-top: 0px;
   position: relative;
   display: flex;
@@ -75,6 +75,17 @@ header #audio .controlBar {
   height: 40px;
   padding: 0 9px;
   background-color: #ffffff;
+}
+header .countdown-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+header .countdown-container .timer-countdown {
+  height: 120px;
+  width: 910px;
+  margin-top: -400px;
+  background-image: url("https://livedemo00.template-help.com/wt_prod-22022/images/bg-counter.jpg");
 }
 
 /*# sourceMappingURL=index.css.map */
