@@ -53,8 +53,8 @@ body .media-icons ul img {
   height: 3vh;
   margin: 0 5vh 0 5vh;
   border-radius: 80%;
-  background-color: rgba(200, 198, 198, 0.2);
-  padding: 8px;
+  background-color: rgba(68, 68, 68, 0.3);
+  padding: 12px;
 }
 
 body p {
@@ -67,6 +67,6 @@ body p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10vh;
+  margin-top: 16vh;
 }
 /*# sourceMappingURL=style.css.map */
