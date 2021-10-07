@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2");
+  format: "woff2";
+}
 body {
   margin: 0 auto;
+  font-family: "Poppins";
 }
 
 header {
@@ -27,14 +33,51 @@ header .nav-container nav li {
   display: inline-block;
 }
 header .nav-container nav a {
-  color: antiquewhite;
+  color: #ffffff;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: bolder;
+}
+header .nav-container nav a a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 header .single-container {
-  margin: 428px;
+  margin: 400px;
+  padding-top: 0px;
+  position: relative;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+}
+header .single-container .svg-text {
+  width: 100%;
+  height: 1.1em;
+  overflow: visible;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 1px;
+}
+header .single-container #new-single-text {
+  color: white;
+}
+header #audio {
+  height: inherit;
+  background: none;
+}
+header #audio .controlBar {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 9px;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */
