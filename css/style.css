@@ -95,11 +95,10 @@
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
       grid-template-areas: ". ." ". ." ". .";
-  gap: 0px 0px 0px 0px;
+  gap: 0px 0px 0px;
 }
 
 .gallery .half {
-  width: 50%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -108,5 +107,8 @@
       grid-template-rows: 1fr;
   gap: 0px 0px;
       grid-template-areas: ". .";
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 /*# sourceMappingURL=style.css.map */
