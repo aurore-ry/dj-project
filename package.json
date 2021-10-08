@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build:styles": "sass ./css/index.scss ./css/index.css"
+    "build:styles": "sass ./css/index.scss ./css/index.css",
+    "build:styleHeader": "sass ./css/header.scss ./css/header.css"
   },
   "dependencies": {
     "sass": "^1.42.1"

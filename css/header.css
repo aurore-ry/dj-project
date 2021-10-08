@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+body {
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+header {
+  margin: 0 auto;
+  padding: 10px 30px;
+  width: 100%;
+  height: 70vh;
+  background-image: url("../images/about/banner-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .nav-contain {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 60px 0px 60px;
+  padding: 32px 0;
+  position: relative;
+}
+header .nav-contain nav {
+  margin: 10px 60px 0px 60px;
+  display: flex;
+  gap: 10px;
+}
+header .nav-contain nav li {
+  display: inline-block;
+}
+header .nav-contain nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+header .nav-contain nav a:hover {
+  color: rgba(240, 239, 239, 0.452);
+}
+header .header-text-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center !important;
+  padding: 0px 15px 0px 15px;
+  margin: 150px;
+  position: relative;
+}
+header .header-text-container .header-title-container {
+  width: 100%;
+  position: relative;
+}
+header .header-text-container .header-title-container a {
+  color: #fffdff;
+  text-decoration: none;
+  display: inline;
+  vertical-align: middle;
+}
+header .header-text-container .header-title-container .title-header-column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #fffdff;
+  text-shadow: 0 4px 4px rgba(21, 21, 21, 0.25);
+  font-size: 28px;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+header .header-text-container .header-title-container .contain-header-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center !important;
+}
+header .header-text-container .header-title-container ul {
+  list-style: none;
+}
+header .header-text-container .header-title-container li {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.5);
+}
+header .header-text-container .header-title-container li a::after {
+  content: " ";
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 52%;
+  right: -5px;
+  display: inline-block;
+  marker: unset;
+  background: #ffd541;
+  transform: translate3d(0, -50%, 0);
+}
+
+/*# sourceMappingURL=header.css.map */
