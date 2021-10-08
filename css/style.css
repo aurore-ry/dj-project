@@ -3,7 +3,7 @@
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
   background-repeat: repeat;
-  height: 70vh;
+  height: 80vh;
   width: 210vh;
   position: relative;
 }
@@ -11,11 +11,11 @@
 .container-fluid h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 35px;
   color: #fefbf3;
   position: absolute;
-  left: 50%;
-  top: 30%;
+  left: 40%;
+  top: 20%;
 }
 
 .container-fluid ul {
@@ -23,18 +23,90 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: absolute;
   bottom: 30%;
+  left: 15%;
 }
 
 .container-fluid ul li {
-  padding: 0 15vh 0 15vh;
+  padding: 0 10vh 0 10vh;
 }
 
-.container-fluid ul li img {
-  height: 8vh;
+.container {
+  margin-top: 20vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container h2 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.container h5 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.container p {
+  font-size: 90px;
+  font-weight: 300;
+  margin-top: 5vh;
+  position: relative;
+  color: #282828;
+}
+
+.container p .dollar {
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+}
+
+.container ul {
+  list-style: none;
+  font-weight: 100;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.container button {
+  padding: 2.5vh 5.5vh 2.5vh 5.5vh;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  background-color: #8121e0;
+  color: white;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 15vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: ". ." ". ." ". .";
+  gap: 0px 0px 0px 0px;
+}
+
+.gallery .half {
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 0px 0px;
+      grid-template-areas: ". .";
 }
 /*# sourceMappingURL=style.css.map */
