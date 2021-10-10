@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
-
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+}
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
@@ -60,7 +64,7 @@
     margin-bottom: 6vh;
     font-size: 14px;
     font-weight: 100;
-    margin-right: 8vh;
+    margin-right: 2vh;
     line-height: 2;
   }
   .gold {
@@ -85,21 +89,13 @@
   }
 }
 .gallery {
-  margin-top: 15vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    ". ."
-    ". ."
-    ". .";
-  gap: 0px 0px 0px;
-  .half {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: ". .";
-    align-items: stretch;
+  margin-top: 18vh;
+  display: flex;
+  flex-wrap: wrap;
+  .photo {
+    width: 50vh;
   }
+}
+.gallery > * {
+  flex: 3 10%;
 }
