@@ -131,13 +131,19 @@
 }
 
 .news .middle-card {
-  background: url(/images/home/homepage-news-background.jpg) rgba(68, 68, 68, 0.5);
+  background: url(/images/home/homepage-news-background.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
   height: 50vh;
   border-radius: 9px;
   color: #fefbf3;
 }
 
 .news .middle-card a {
+  color: #fefbf3;
+}
+
+.news .middle-card a:hover {
   color: #fefbf3;
 }
 
@@ -180,5 +186,50 @@
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
   cursor: pointer;
+}
+
+.input {
+  background-image: url(/images/home/homepage-footer-background.jpg);
+  height: 70vh;
+  background-repeat: cover;
+  background-position: left;
+  background-size: 100%;
+  position: relative;
+  margin-top: 12vh;
+}
+
+.input h2 {
+  color: #fefbf3;
+  font-family: "Poppins", "sans serif";
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+}
+
+.input form {
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  font-family: "Poppins", "sans serif";
+  margin-top: 8vh;
+}
+
+.input form .email {
+  padding: 3vh 50vh 3vh 2vh;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  border: none;
+  color: #444444;
+}
+
+.input form .button {
+  padding: 3vh 5vh 3vh 5vh;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  background-color: #8121e0;
+  color: #fefbf3;
 }
 /*# sourceMappingURL=style.css.map */
