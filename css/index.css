@@ -1,94 +1,138 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 body {
   margin: 0 auto;
-  font-family: "Poppins";
+  position: relative;
 }
 
 header {
   margin: 0 auto;
-  padding: 10px 30px;
-  width: 100%;
-  height: 70vh;
+  padding: 10px 339px;
+  height: 100vh;
   background-image: url("../images/home/homapage-banner-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(114%) contrast(118%);
 }
-header .nav-container {
+header .nav-contain {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0px 60px 0px 60px;
-  padding-top: 10px;
+  padding: 32px 0;
+  position: relative;
 }
-header .nav-container nav {
-  margin: 10px 30px 0px 30px;
+header .nav-contain #nav {
+  margin: 0px 60px;
   display: flex;
-  gap: 40px;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 48px;
 }
-header .nav-container nav li {
-  display: inline-block;
-}
-header .nav-container nav a {
+header .nav-contain #nav a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-  font-weight: bolder;
+  font-weight: 500;
 }
-header .nav-container nav a:hover {
+header .nav-contain #nav a:hover {
   color: rgba(240, 239, 239, 0.452);
 }
-header .single-container {
-  margin: 388px;
+header .nav-contain nav.social-link {
+  display: flex;
+  gap: 25px;
+}
+header .nav-contain nav.social-link li {
+  display: inline-block;
+}
+header .nav-contain nav.social-link li a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 280ms linear 0s;
+}
+header .nav-contain nav.social-link li a #svg-head {
+  width: 22px;
+  height: 22px;
+}
+header .nav-contain nav.social-link li a:hover {
+  color: white;
+}
+
+#rythm {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -46px;
+}
+#rythm .single-container {
   padding-top: 0px;
   position: relative;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  margin-top: -426px;
 }
-header .single-container .svg-text {
+#rythm .single-container .svg-text {
   width: 100%;
   height: 1.1em;
   overflow: visible;
-  font-size: 46px;
+  font-size: 120px;
   font-weight: 700;
   line-height: 1;
   fill: transparent;
   stroke: #ffffff;
   stroke-width: 1px;
 }
-header .single-container #new-single-text {
+#rythm .single-container #new-single-text {
   color: white;
 }
-header #audio {
+#rythm #audio {
   height: inherit;
   background: none;
 }
-header #audio .controlBar {
-  position: relative;
-  display: flex;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 40px;
-  padding: 0 9px;
-  background-color: #ffffff;
-}
-header .countdown-container {
+
+.countdown-container {
   display: flex;
   flex-flow: row;
   justify-content: center;
+  margin-top: -62px;
 }
-header .countdown-container .timer-countdown {
-  height: 120px;
-  width: 910px;
-  margin-top: -400px;
+.countdown-container .timer-countdown {
+  height: 206px;
+  width: 1170px;
   background-image: url("https://livedemo00.template-help.com/wt_prod-22022/images/bg-counter.jpg");
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
+}
+
+.avergone {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.avergone .section-raw-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 98px;
+  gap: 102px;
+}
+.avergone .section-raw-c .image-avergone {
+  display: flex;
+}
+.avergone .section-raw-c h3 {
+  font-size: 48px;
+  color: black;
+}
+.avergone .section-raw-c p {
+  font-size: 6px;
 }
 
 /*# sourceMappingURL=index.css.map */
