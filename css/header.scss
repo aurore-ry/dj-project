@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 
 body {
   margin: 0 auto;
@@ -7,10 +7,11 @@ body {
 
 header {
   margin: 0 auto;
-  padding: 10px 30px;
+  padding: 10px 339px;
 
-  width: 100%;
+  //width: 100%;
   height: 70vh;
+
   background-image: url("../images/about/banner-img.jpg");
   background-size: cover;
   background-position: center;
@@ -19,21 +20,20 @@ header {
   .nav-contain {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: 0px 60px 0px 60px;
     padding: 32px 0;
+
     position: relative;
 
-    nav {
-      margin: 10px 60px 0px 60px;
+    #nav {
+      margin: 0px 60px;
 
       display: flex;
-
-      gap: 10px;
-      li {
-        display: inline-block;
-      }
+      flex: 1;
+      justify-content: flex-end;
+      gap: 48px;
 
       a {
         color: #ffffff;
@@ -45,6 +45,29 @@ header {
 
       a:hover {
         color: rgba(240, 239, 239, 0.452);
+      }
+    }
+
+    nav.social-link {
+      display: flex;
+      gap: 25px;
+
+      li {
+        display: inline-block;
+
+        a {
+          color: rgba(255, 255, 255, 0.5);
+          transition: color 280ms linear 0s;
+
+          svg {
+            width: 22px;
+            height: 22px;
+          }
+
+          &:hover {
+            color: white;
+          }
+        }
       }
     }
   }
