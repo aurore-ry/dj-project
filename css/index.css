@@ -50,7 +50,7 @@ header .nav-contain nav.social-link li a {
   color: rgba(255, 255, 255, 0.5);
   transition: color 280ms linear 0s;
 }
-header .nav-contain nav.social-link li a svg {
+header .nav-contain nav.social-link li a #svg-head {
   width: 22px;
   height: 22px;
 }
