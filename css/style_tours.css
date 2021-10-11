@@ -209,3 +209,26 @@ a:active {
   font-weight: 400;
   color: rgba(21, 21, 21, 0.64);
 }
+
+.place
+{
+  font-weight: 600;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.description
+{
+  color: rgba(21, 21, 21, 0.8);
+  font-weight: 300;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif; 
+  
+}
+.buy
+{
+  font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #212121;
+    
+}
