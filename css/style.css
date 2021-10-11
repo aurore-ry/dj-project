@@ -132,22 +132,30 @@
 
 .news .middle-card {
   background: url(/images/home/homepage-news-background.jpg);
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
   height: 43vh;
   border-radius: 9px;
-  color: #fefbf3;
   padding: 2vh 2vh 6vh 2vh;
 }
 
-.news .middle-card h2 {
+.news .middle-card time {
+  border-radius: 4px;
+  color: #fefbf3;
+  background-color: #8121e0;
+  padding: 0.2vh;
+}
+
+.news .middle-card h4 {
   margin-top: 2vh;
+  color: #fefbf3;
 }
 
 .news .middle-card p {
+  color: #fefbf3;
   margin-top: 7vh;
   line-height: 1.1;
 }

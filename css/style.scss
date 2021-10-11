@@ -105,19 +105,25 @@
   margin-right: 10vh;
   .middle-card {
     background: url(/images/home/homepage-news-background.jpg);
+    filter: grayscale(70%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    background-color: rgba($color: #000000, $alpha: 0.5);
-    overflow: hidden;
     height: 43vh;
     border-radius: 9px;
-    color: #fefbf3;
     padding: 2vh 2vh 6vh 2vh;
-    h2 {
+    time {
+      border-radius: 4px;
+      color: #fefbf3;
+      background-color: #8121e0;
+      padding: 0.2vh;
+    }
+    h4 {
       margin-top: 2vh;
+      color: #fefbf3;
     }
     p {
+      color: #fefbf3;
       margin-top: 7vh;
       line-height: 1.1;
     }
