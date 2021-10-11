@@ -132,15 +132,29 @@
 
 .news .middle-card {
   background: url(/images/home/homepage-news-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  height: 50vh;
+  height: 43vh;
   border-radius: 9px;
   color: #fefbf3;
+  padding: 2vh 2vh 6vh 2vh;
+}
+
+.news .middle-card h2 {
+  margin-top: 2vh;
+}
+
+.news .middle-card p {
+  margin-top: 7vh;
+  line-height: 1.1;
 }
 
 .news .middle-card a {
   color: #fefbf3;
+  margin-bottom: 1vh;
 }
 
 .news .middle-card a:hover {
@@ -150,7 +164,7 @@
 .news h2 {
   font-size: 25px;
   text-align: center;
-  margin-top: 8vh;
+  margin-top: 6vh;
   margin-bottom: 14vh;
 }
 
@@ -163,7 +177,7 @@
 }
 
 .news h4 {
-  margin-top: 4vh;
+  margin-top: 2vh;
   font-size: 25px;
   font-weight: 300;
   margin-bottom: 4vh;
@@ -173,7 +187,7 @@
   font-weight: 100;
   font-size: 15px;
   text-align: justify;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 .news a {
@@ -190,7 +204,7 @@
 
 .input {
   background-image: url(/images/home/homepage-footer-background.jpg);
-  height: 70vh;
+  height: 80vh;
   background-repeat: cover;
   background-position: left;
   background-size: 100%;
@@ -209,7 +223,7 @@
 
 .input form {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 28%;
   font-family: "Poppins", "sans serif";
   margin-top: 8vh;
