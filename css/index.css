@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 body {
   margin: 0 auto;
-  font-family: "Poppins";
+  position: relative;
 }
 
 header {
@@ -130,6 +130,9 @@ header .nav-contain nav.social-link li a:hover {
 .avergone .section-raw-c h3 {
   font-size: 48px;
   color: black;
+}
+.avergone .section-raw-c p {
+  font-size: 6px;
 }
 
 /*# sourceMappingURL=index.css.map */

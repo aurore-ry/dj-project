@@ -2,7 +2,7 @@
 
 body {
   margin: 0 auto;
-  font-family: "Poppins";
+  position: relative;
 }
 
 header {
@@ -148,6 +148,9 @@ header {
     h3 {
       font-size: 48px;
       color: black;
+    }
+    p {
+      font-size: 6px;
     }
   }
 }
