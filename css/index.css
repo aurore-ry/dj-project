@@ -176,6 +176,7 @@ header .nav-contain nav.social-link li a:hover {
           justify-content: space-between;
   margin-top: 100px;
   margin-left: 280px;
+  margin-bottom: 50px;
 }
 
 .avergone .section-raw-c {
@@ -188,7 +189,10 @@ header .nav-contain nav.social-link li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  min-height: 1px;
   padding: 10px 98px;
+  padding-bottom: 25px;
   gap: 102px;
 }
 
@@ -199,12 +203,16 @@ header .nav-contain nav.social-link li a:hover {
 }
 
 .avergone .section-raw-c h3 {
-  font-size: 48px;
+  font-size: 36px;
   color: black;
 }
 
 .avergone .section-raw-c p {
-  font-size: 6px;
+  font-size: 15px;
+}
+
+.avergone .section-raw-c .quote-style {
+  font-size: 24px;
 }
 
 .container-fluid {
