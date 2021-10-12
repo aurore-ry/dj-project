@@ -232,17 +232,6 @@ a:active {
     color: #212121;
     font-family: 'Poppins', sans-serif; 
 }
-.dottours
-{
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  top: 22px;
-  width: 33px;
-  height: 33px;
-  border-radius: 50%;
-  border: 1px solid #C4C4C4;
-  }
 .timeline
 {
   position: absolute;
@@ -253,6 +242,18 @@ a:active {
   height: 33px;
   border-radius: 50%;
   border: 1px solid #C4C4C4;
+}
+.timeline:before
+{
+  position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #8121E0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
   
