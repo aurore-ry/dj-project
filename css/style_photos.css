@@ -7,7 +7,6 @@ body {
     overflow: auto;
 }
 div.photos {
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
