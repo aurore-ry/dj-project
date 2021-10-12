@@ -4,6 +4,17 @@
   margin: 0;
   padding: 0;
 }
+
+.fanbase {
+  background-image: url(/images/home/bg-circle-1.png);
+  background-color: #282828;
+  color: #fefbf3;
+  font-family: "Poppins", "sans serif";
+  height: 120vh;
+  img {
+    height: 10vh;
+  }
+}
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
