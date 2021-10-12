@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 body {
-  margin: 0px 15px 0px 15px;
+  margin: 0px;
   position: relative;
 }
 
@@ -210,19 +210,19 @@ header .nav-contain nav.social-link li a:hover {
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 80vh;
-  width: 210vh;
   position: relative;
 }
 
 .container-fluid h3 {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 35px;
   color: #fefbf3;
   position: absolute;
-  left: 35%;
+  left: 45%;
   top: 20%;
 }
 
@@ -313,18 +313,25 @@ header .nav-contain nav.social-link li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .gallery .photo {
-  width: 50vh;
+  width: 50%;
 }
 
-.gallery > * {
+#small-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-flex: 3;
-      -ms-flex: 3 10%;
-          flex: 3 10%;
+      -ms-flex: 3 17%;
+          flex: 3 17%;
 }
 
 .news {
