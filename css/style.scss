@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
 // Reset CSS
 * {
   margin: 0;
@@ -29,8 +30,20 @@
   }
   .fanbase-photos {
     position: relative;
+    animation: floating 5s ease-in-out infinite;
     .dj-about {
       height: 30vh;
+    }
+  }
+  @keyframes floating {
+    0% {
+      transform: scale(25px);
+    }
+    50% {
+      transform: scale(25px);
+    }
+    100% {
+      transform: scale(20px);
     }
   }
 }
