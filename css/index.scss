@@ -131,10 +131,10 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   margin-top: 100px;
-  margin-left: 280px;
+
   margin-bottom: 50px;
   .section-raw-c {
     display: flex;
@@ -148,6 +148,8 @@ header {
 
     .image-avergone {
       display: flex;
+      padding-top: 38px;
+      border-radius: 8px;
     }
     h3 {
       font-size: 36px;
@@ -201,7 +203,9 @@ header {
     font-size: 35px;
   }
   h5 {
-    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
     font-size: 20px;
   }
   p {
@@ -212,10 +216,18 @@ header {
     color: #282828;
 
     .dollar {
-      font-size: 20px;
-      font-weight: 300;
-      position: absolute;
+      display: flex;
       align-items: flex-start;
+      margin-top: 10px;
+      padding-left: 128px;
+      position: absolute;
+
+      letter-spacing: 0.2em;
+      line-height: 1.25;
+      text-align: center !important;
+
+      font-size: 28px;
+      font-weight: 600;
     }
   }
   .details {
