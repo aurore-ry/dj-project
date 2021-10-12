@@ -5,31 +5,33 @@
   padding: 0;
 }
 
-.fanbase {
+#fanbase {
   background-image: url(/images/home/bg-circle-1.png);
   background-color: #282828;
   color: #fefbf3;
   font-family: "Poppins", "sans serif";
   height: 120vh;
-  .join-the-fanbase {
+  position: relative;
+  #join-the-fanbase {
+    position: absolute;
+    top: 8vh;
+    right: 10vh;
     h2 {
-      display: flex;
-      justify-content: flex-end;
       font-size: 35px;
       font-weight: bolder;
     }
     p {
-      display: flex;
-      justify-content: flex-end;
       font-weight: lighter;
     }
-    div {
-      display: flex;
-      justify-content: flex-end;
+    article {
+      position: absolute;
     }
   }
-  img {
-    height: 10vh;
+  .fanbase-photos {
+    position: relative;
+    .dj-about {
+      height: 30vh;
+    }
   }
 }
 .container-fluid {

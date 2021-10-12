@@ -4,46 +4,40 @@
   padding: 0;
 }
 
-.fanbase {
+#fanbase {
   background-image: url(/images/home/bg-circle-1.png);
   background-color: #282828;
   color: #fefbf3;
   font-family: "Poppins", "sans serif";
   height: 120vh;
+  position: relative;
 }
 
-.fanbase .join-the-fanbase h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+#fanbase #join-the-fanbase {
+  position: absolute;
+  top: 8vh;
+  right: 10vh;
+}
+
+#fanbase #join-the-fanbase h2 {
   font-size: 35px;
   font-weight: bolder;
 }
 
-.fanbase .join-the-fanbase p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+#fanbase #join-the-fanbase p {
   font-weight: lighter;
 }
 
-.fanbase .join-the-fanbase div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+#fanbase #join-the-fanbase article {
+  position: absolute;
 }
 
-.fanbase img {
-  height: 10vh;
+#fanbase .fanbase-photos {
+  position: relative;
+}
+
+#fanbase .fanbase-photos .dj-about {
+  height: 30vh;
 }
 
 .container-fluid {
