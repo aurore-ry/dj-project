@@ -224,11 +224,25 @@ a:active {
   font-family: 'Poppins', sans-serif; 
   
 }
-.buy
+.button-link-icon
 {
   font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     color: #212121;
-    
+    font-family: 'Poppins', sans-serif; 
 }
+.dottours
+{
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 22px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid #C4C4C4;
+  }
+
+
+  

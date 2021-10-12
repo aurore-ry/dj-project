@@ -9,9 +9,10 @@ header {
   padding: 10px 339px;
   height: 70vh;
   background-image: url("../images/about/banner-img.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 header .nav-contain {
   display: flex;

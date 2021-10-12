@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 figure {
     border: 1px #cccccc solid;
     padding: 4px;
