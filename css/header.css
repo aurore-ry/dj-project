@@ -9,9 +9,16 @@ header {
   padding: 10px 339px;
   height: 70vh;
   background-image: url("../images/about/banner-img.jpg");
+<<<<<<< HEAD
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+=======
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+>>>>>>> 4b012623d513b47eda97c8243d098fb19e2ecfa6
 }
 
 header .nav-contain {
