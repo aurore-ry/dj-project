@@ -28,22 +28,11 @@
       position: absolute;
     }
   }
-  .fanbase-photos {
+  .img {
     position: relative;
-    animation: floating 5s ease-in-out infinite;
+
     .dj-about {
       height: 30vh;
-    }
-  }
-  @keyframes floating {
-    0% {
-      transform: scale(25px);
-    }
-    50% {
-      transform: scale(25px);
-    }
-    100% {
-      transform: scale(20px);
     }
   }
 }
