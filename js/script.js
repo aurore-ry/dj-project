@@ -18,7 +18,7 @@
     //img.style.transition = "width 0.5 ease"
 //}
 
-const fanbaseImages = document.querySelector('.img');
+const fanbaseImages = document.querySelector('.fanbase-photos');
 fanbaseImages.classList.add('animate__animated', 'animate__pulse');
 fanbaseImages.addEventListener('animationend', () => {
     //animate fanbase 

@@ -154,6 +154,27 @@
   width: 50vh;
 }
 
+.gallery:hover {
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 4s ease-in-out;
+          animation-duration: 4s ease-in-out;
+}
+
+@-webkit-keyframes zoomIn {
+  25% {
+    -webkit-transform: scale(10px);
+            transform: scale(10px);
+  }
+}
+
+@keyframes zoomIn {
+  25% {
+    -webkit-transform: scale(10px);
+            transform: scale(10px);
+  }
+}
+
 .gallery > * {
   -webkit-box-flex: 3;
       -ms-flex: 3 10%;

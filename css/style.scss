@@ -124,8 +124,18 @@
   margin-top: 18vh;
   display: flex;
   flex-wrap: wrap;
+
   .photo {
     width: 50vh;
+  }
+}
+.gallery:hover {
+  animation: zoomIn;
+  animation-duration: 4s ease-in-out;
+  @keyframes zoomIn {
+    25% {
+      transform: scale(10px);
+    }
   }
 }
 .gallery > * {
