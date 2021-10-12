@@ -245,7 +245,14 @@ a:active {
   }
 .timeline
 {
-  margin:0;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 22px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid #C4C4C4;
 }
 
   
