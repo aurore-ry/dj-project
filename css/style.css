@@ -12,6 +12,36 @@
   height: 120vh;
 }
 
+.fanbase .join-the-fanbase h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.fanbase .join-the-fanbase p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-weight: lighter;
+}
+
+.fanbase .join-the-fanbase div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .fanbase img {
   height: 10vh;
 }

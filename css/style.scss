@@ -11,6 +11,23 @@
   color: #fefbf3;
   font-family: "Poppins", "sans serif";
   height: 120vh;
+  .join-the-fanbase {
+    h2 {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 35px;
+      font-weight: bolder;
+    }
+    p {
+      display: flex;
+      justify-content: flex-end;
+      font-weight: lighter;
+    }
+    div {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
   img {
     height: 10vh;
   }
