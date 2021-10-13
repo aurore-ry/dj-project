@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 body {
-  margin: 0 auto;
+  margin: 0px;
   position: relative;
 }
 
@@ -113,26 +113,69 @@ header .nav-contain nav.social-link li a:hover {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 100px;
-  margin-left: 280px;
+  margin-bottom: 50px;
 }
 .avergone .section-raw-c {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  min-height: 1px;
   padding: 10px 98px;
+  padding-bottom: 25px;
   gap: 102px;
 }
 .avergone .section-raw-c .image-avergone {
   display: flex;
+  padding-top: 38px;
+  border-radius: 8px;
 }
 .avergone .section-raw-c h3 {
-  font-size: 48px;
+  font-size: 36px;
   color: black;
 }
 .avergone .section-raw-c p {
-  font-size: 6px;
+  font-size: 15px;
+}
+.avergone .section-raw-c .quote-style {
+  font-size: 24px;
+}
+
+.disco-height {
+  height: 20vh;
+  min-height: 20vh;
+  max-height: 20vh;
+}
+
+.disco {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 100%;
+  background-image: url("../images/home/homepage-latest-releases-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.disco h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: white;
+}
+.disco .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8121e0;
+  width: 222px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
