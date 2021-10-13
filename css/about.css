@@ -4,16 +4,16 @@
   padding: 0;
 }
 
-section {
-  background-image: url(/images/home/bg-circle-1.png);
-  background-size: cover;
-  height: 60vh;
-  font-family: "Poppins", "sans serif";
-  position: relative;
+#bg-color {
+  background-color: #898b8a;
 }
 
-section h2 {
+#bg-color .container {
+  background-image: url(/images/home/bg-circle-1.png) !important;
+  font-family: "Poppins", "sans serif";
+}
+
+#bg-color .container h2 {
   text-align: center;
-  position: absolute;
 }
 /*# sourceMappingURL=about.css.map */
