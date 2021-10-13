@@ -30,13 +30,32 @@
 
 #fanbase #join-the-fanbase article {
   position: absolute;
+  right: 5vh;
 }
 
-#fanbase .img {
-  position: relative;
+#fanbase .exclusive {
+  position: absolute;
+  left: 90vh;
+  top: 20vh;
 }
 
-#fanbase .img .dj-about {
+#fanbase .dj-sets {
+  position: absolute;
+  left: 90vh;
+  top: 40vh;
+}
+
+#fanbase .free-download {
+  position: absolute;
+  left: 90vh;
+  top: 60vh;
+}
+
+#fanbase .icon {
+  height: 10vh;
+}
+
+#fanbase .icon .dj-about {
   height: 30vh;
 }
 

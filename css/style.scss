@@ -26,10 +26,26 @@
     }
     article {
       position: absolute;
+      right: 5vh;
     }
   }
-  .img {
-    position: relative;
+  .exclusive {
+    position: absolute;
+    left: 90vh;
+    top: 20vh;
+  }
+  .dj-sets {
+    position: absolute;
+    left: 90vh;
+    top: 40vh;
+  }
+  .free-download {
+    position: absolute;
+    left: 90vh;
+    top: 60vh;
+  }
+  .icon {
+    height: 10vh;
 
     .dj-about {
       height: 30vh;

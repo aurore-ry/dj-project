@@ -14,13 +14,10 @@ footer .img-container {
           justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
 footer .img-container img {
   margin: 3vh;
 }
 
->>>>>>> tiffBranch
 footer .links ul {
   list-style: none;
   display: -webkit-box;
