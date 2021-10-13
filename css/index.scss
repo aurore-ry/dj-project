@@ -123,18 +123,40 @@ header {
   }
 }
 
-.countdown-container {
+.call-to-action-container {
   display: flex;
   flex-flow: row;
   justify-content: center;
   margin-top: -62px;
 
-  .timer-countdown {
+  .call-to-action {
     height: 206px;
     width: 1170px;
     background-image: url("https://livedemo00.template-help.com/wt_prod-22022/images/bg-counter.jpg");
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 7px;
+  }
+
+  .call-to-action .counter-row-alignement {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .countdown-timer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -100px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    padding-right: 65px;
+    padding-left: 300px;
+    color: white;
+    font-size: 46px;
+    font-weight: 600;
   }
 }
 
