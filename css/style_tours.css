@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+div.nav {
+display: flex;
+
+    justify-content: center;
+    padding: 0 30px;
+    color: #6a868e;
+    font-weight: 600;
+    padding: 115px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 57px 0;
+    
+    background: #212121;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    word-spacing: 75px;
+}
+a:hover {
+    color: #8121e0;
+}
+a:active {
+    color: white;
+}
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+  body {
+    
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    
+  }
+  
+  * {
+    
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    
+    position: relative;
+    padding-top: 75%;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+  }
+  
+  .carousel__viewport {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: white;
+    counter-increment: item;
+  }
+  
+  .carousel__slide:nth-child(even) {
+    background-color: white;
+  }
+  
+  .carousel__slide:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+  }
+  
+
+  
+  @media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }
+  
+  .carousel:hover .carousel__snapper,
+  .carousel:focus-within .carousel__snapper {
+    animation-name: none;
+  }
+  
+  .carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+ 
+  
+  .carousel::before,
+  .carousel::after,
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 37.5%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+  }
+
+.date {
+  padding-left: 80px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(21, 21, 21, 0.64);
+}
+.place
+{
+  padding-left: 80px;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+.description
+{
+  padding-left: 80px;
+  color: rgba(21, 21, 21, 0.8);
+  font-weight: 300;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif; 
+  
+}
+.button-link-icon
+{
+  text-align: right;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #212121;
+  font-family: 'Poppins', sans-serif; 
+}
+.timeline
+{ 
+  position: relative;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid #C4C4C4;
+}
+.timeline:before
+{
+  position: relative;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8121E0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

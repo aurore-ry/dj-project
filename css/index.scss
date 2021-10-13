@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap");
 //Aurore
 body {
-  margin: 0px 15px 0px 15px;
+  margin: 0px;
   position: relative;
 }
 
@@ -131,26 +131,35 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   margin-top: 100px;
-  margin-left: 280px;
+
+  margin-bottom: 50px;
   .section-raw-c {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    min-height: 1px;
     padding: 10px 98px;
+    padding-bottom: 25px;
     gap: 102px;
 
     .image-avergone {
       display: flex;
+      padding-top: 38px;
+      border-radius: 8px;
     }
     h3 {
-      font-size: 48px;
+      font-size: 36px;
       color: black;
     }
     p {
-      font-size: 6px;
+      font-size: 15px;
+    }
+    .quote-style {
+      font-size: 24px;
     }
   }
 }
@@ -160,17 +169,17 @@ header {
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 80vh;
-  width: 210vh;
   position: relative;
   h3 {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 35px;
     color: #fefbf3;
     position: absolute;
-    left: 35%;
+    left: 45%;
     top: 20%;
   }
   ul {
@@ -194,7 +203,9 @@ header {
     font-size: 35px;
   }
   h5 {
-    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
     font-size: 20px;
   }
   p {
@@ -205,10 +216,18 @@ header {
     color: #282828;
 
     .dollar {
-      font-size: 20px;
-      font-weight: 300;
-      position: absolute;
+      display: flex;
       align-items: flex-start;
+      margin-top: 10px;
+      padding-left: 128px;
+      position: absolute;
+
+      letter-spacing: 0.2em;
+      line-height: 1.25;
+      text-align: center !important;
+
+      font-size: 28px;
+      font-weight: 600;
     }
   }
   .details {
@@ -244,13 +263,15 @@ header {
 .gallery {
   margin-top: 18vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   .photo {
-    width: 50vh;
+    width: 50%;
   }
 }
-.gallery > * {
-  flex: 3 10%;
+#small-photos {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 3 17%;
 }
 .news {
   font-family: "Poppins", sans-serif;
