@@ -4,6 +4,42 @@
   padding: 0;
 }
 
+#fanbase {
+  background-image: url(/images/home/bg-circle-1.png);
+  background-color: #282828;
+  color: #fefbf3;
+  font-family: "Poppins", "sans serif";
+  height: 120vh;
+  position: relative;
+}
+
+#fanbase #join-the-fanbase {
+  position: absolute;
+  top: 8vh;
+  right: 10vh;
+}
+
+#fanbase #join-the-fanbase h2 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#fanbase #join-the-fanbase p {
+  font-weight: lighter;
+}
+
+#fanbase #join-the-fanbase article {
+  position: absolute;
+}
+
+#fanbase .img {
+  position: relative;
+}
+
+#fanbase .img .dj-about {
+  height: 30vh;
+}
+
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
   background-size: cover;
@@ -116,6 +152,27 @@
 
 .gallery .photo {
   width: 50vh;
+}
+
+.gallery:hover {
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 4s ease-in-out;
+          animation-duration: 4s ease-in-out;
+}
+
+@-webkit-keyframes zoomIn {
+  25% {
+    -webkit-transform: scale(10px);
+            transform: scale(10px);
+  }
+}
+
+@keyframes zoomIn {
+  25% {
+    -webkit-transform: scale(10px);
+            transform: scale(10px);
+  }
 }
 
 .gallery > * {

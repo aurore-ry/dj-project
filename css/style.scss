@@ -1,8 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
 // Reset CSS
 * {
   margin: 0;
   padding: 0;
+}
+
+#fanbase {
+  background-image: url(/images/home/bg-circle-1.png);
+  background-color: #282828;
+  color: #fefbf3;
+  font-family: "Poppins", "sans serif";
+  height: 120vh;
+  position: relative;
+  #join-the-fanbase {
+    position: absolute;
+    top: 8vh;
+    right: 10vh;
+    h2 {
+      font-size: 35px;
+      font-weight: bolder;
+    }
+    p {
+      font-weight: lighter;
+    }
+    article {
+      position: absolute;
+    }
+  }
+  .img {
+    position: relative;
+
+    .dj-about {
+      height: 30vh;
+    }
+  }
 }
 .container-fluid {
   background-image: url(/images/home/homepage-sponsors-background.jpg);
@@ -92,8 +124,18 @@
   margin-top: 18vh;
   display: flex;
   flex-wrap: wrap;
+
   .photo {
     width: 50vh;
+  }
+}
+.gallery:hover {
+  animation: zoomIn;
+  animation-duration: 4s ease-in-out;
+  @keyframes zoomIn {
+    25% {
+      transform: scale(10px);
+    }
   }
 }
 .gallery > * {
