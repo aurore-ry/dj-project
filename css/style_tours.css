@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-div.nav {
+.nav {
 display: flex;
 
     justify-content: center;
@@ -18,8 +18,30 @@ display: flex;
     border-radius: 10px 10px 0 0;
     word-spacing: 75px;
 }
+<<<<<<< HEAD
+a {
+  transition: all 0.3s ease-in-out;
+=======
+.navmonths:hover
+{
+  color: white;
+}
+.navmonths:active
+{
+  color: white;
+}
+
+a {
+    color: inherit;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+>>>>>>> raoniBranch
+}
 a:hover {
     color: #8121e0;
+    font-size: 40;
 }
 a:active {
     color: white;
@@ -210,40 +232,60 @@ a:active {
 .date {
   padding-left: 80px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgba(21, 21, 21, 0.64);
+  font-family: "Poppins", sans-serif;
 }
 .place
 {
+  margin-top: -5px;
   padding-left: 80px;
   font-weight: 600;
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
 }
+.place:hover
+{
+  color: #8121e0;
+  font-size: 40;
+  transition: all 0.3s ease-in-out;
+}
 .description
 {
+  margin-top: -20px;
   padding-left: 80px;
   color: rgba(21, 21, 21, 0.8);
   font-weight: 300;
   font-size: 15px;
   font-family: 'Poppins', sans-serif; 
+  line-height: 1em;
   
 }
 .button-link-icon
 {
+  float : right;
+  padding-top: 10px;
   text-align: right;
+  padding-right: 60px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   color: #212121;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
+
+}
+.button-link-icon:hover
+{
+  color: #8121e0;
+  font-size: 40;
+  transition: all 0.3s ease-in-out;
 }
 .timeline
 { 
   position: relative;
   display: flex;
-  left: 0px;
-  top: 0px;
+  left: 20px;
+  top: 70px;
   width: 33px;
   height: 33px;
   border-radius: 50%;
@@ -260,4 +302,7 @@ a:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.svg {
+  position:absolute;
 }
