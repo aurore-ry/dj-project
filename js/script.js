@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Function to set images zoom
 //function zoomImage(img) {
     //img.style.transform = "scale(2)";
@@ -23,3 +24,6 @@ fanbaseImages.classList.add('animate__animated', 'animate__pulse');
 fanbaseImages.addEventListener('animationend', () => {
     //animate fanbase 
 });
+=======
+const audioPlayer = document.querySelector("audio");
+>>>>>>> auroreBranch
