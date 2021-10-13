@@ -210,11 +210,13 @@ a:active {
 .date {
   padding-left: 80px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgba(21, 21, 21, 0.64);
+  font-family: "Poppins", sans-serif;
 }
 .place
 {
+  margin-top: -5px;
   padding-left: 80px;
   font-weight: 600;
   font-size: 24px;
@@ -222,16 +224,20 @@ a:active {
 }
 .description
 {
+  margin-top: -20px;
   padding-left: 80px;
   color: rgba(21, 21, 21, 0.8);
   font-weight: 300;
   font-size: 15px;
   font-family: 'Poppins', sans-serif; 
+  line-height: 1em;
   
 }
 .button-link-icon
 {
+  float : right;
   text-align: right;
+  padding-right: 60px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -242,8 +248,8 @@ a:active {
 { 
   position: relative;
   display: flex;
-  left: 0px;
-  top: 0px;
+  left: 20px;
+  top: 70px;
   width: 33px;
   height: 33px;
   border-radius: 50%;
@@ -260,4 +266,10 @@ a:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+<<<<<<< HEAD
+=======
+}
+.svg {
+  position:absolute;
+>>>>>>> raoniBranch
 }
