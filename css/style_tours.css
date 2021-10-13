@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-div.nav {
+.nav {
 display: flex;
 
     justify-content: center;
@@ -18,8 +18,25 @@ display: flex;
     border-radius: 10px 10px 0 0;
     word-spacing: 75px;
 }
+.navmonths:hover
+{
+  color: white;
+}
+.navmonths:active
+{
+  color: white;
+}
+
+a {
+    color: inherit;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+}
 a:hover {
     color: #8121e0;
+    font-size: 40;
 }
 a:active {
     color: white;
@@ -222,6 +239,12 @@ a:active {
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
 }
+.place:hover
+{
+  color: #8121e0;
+  font-size: 40;
+  transition: all 0.3s ease-in-out;
+}
 .description
 {
   margin-top: -20px;
@@ -236,13 +259,21 @@ a:active {
 .button-link-icon
 {
   float : right;
+  padding-top: 10px;
   text-align: right;
   padding-right: 60px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   color: #212121;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
+
+}
+.button-link-icon:hover
+{
+  color: #8121e0;
+  font-size: 40;
+  transition: all 0.3s ease-in-out;
 }
 .timeline
 { 
