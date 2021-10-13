@@ -387,13 +387,3 @@ header {
     }
   }
 }
-
-// Tiff - media queries
-
-//mobile-view
-@media (min-width: 410px) and(max-width:760px) {
-  .links {
-    display: grid;
-    grid-template-columns: 1;
-  }
-}

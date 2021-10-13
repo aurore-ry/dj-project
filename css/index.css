@@ -483,13 +483,4 @@ header .nav-contain nav.social-link li a:hover {
   background-color: #8121e0;
   color: #fefbf3;
 }
-
-@media (min-width: 410px) and (max-width: 760px) {
-  .links {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1;
-        grid-template-columns: 1;
-  }
-}
 /*# sourceMappingURL=index.css.map */
