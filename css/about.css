@@ -96,10 +96,15 @@
 #bg-color .container {
   background-image: url(/images/home/bg-circle-2.png) !important;
   font-family: "Poppins", "sans serif";
+  height: 120vh;
 }
 
 #bg-color .container h2 {
   text-align: center;
+}
+
+#bg-color .container img {
+  height: 4vh;
 }
 
 .angerone h1 {
@@ -132,15 +137,30 @@
 
 .angerone .contact .phone img {
   height: 3vh;
+  margin-right: 1vh;
 }
 
 .angerone .contact .mail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 4vh;
 }
 
 .angerone .contact .mail img {
   height: 3vh;
+  margin-right: 1vh;
+}
+
+.angerone .social-link {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3vh;
+}
+
+.angerone .social-link li {
+  margin: 2vh;
 }
 /*# sourceMappingURL=about.css.map */
