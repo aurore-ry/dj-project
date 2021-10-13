@@ -24,12 +24,16 @@ div.photos {
     color: black;
     margin-right: -15px;
     margin-left: -15px;
-    
+
     }
+.sectiongallery {
+
+    padding: 150px 0;
+}
 
     div.photos a:hover {
     box-shadow: 0 0 0 18px rgb(255 255 255 / 40%);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.7s ease-in-out;
     will-change: transform;
     opacity: 100;
     }
