@@ -96,11 +96,13 @@
 #bg-color .container {
   background-image: url(/images/home/bg-circle-2.png) !important;
   font-family: "Poppins", "sans serif";
-  height: 120vh;
+  height: 100vh;
+  margin: 10vh;
 }
 
 #bg-color .container h2 {
   text-align: center;
+  top: 15vh;
 }
 
 #bg-color .container img {
