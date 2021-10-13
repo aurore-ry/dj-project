@@ -198,3 +198,25 @@ header {
     text-decoration: none;
   }
 }
+
+.latest {
+  display: flex;
+  flex-flow: column;
+  margin-top: 225px;
+  #title-center {
+    padding-left: 860px;
+  }
+  .image-latest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .text-latest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 300px;
+  }
+}
