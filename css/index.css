@@ -48,11 +48,14 @@ header .nav-contain #nav {
 }
 
 header .nav-contain #nav a {
-  color: #ffffff;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 25px;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-weight: 500;
 }
 
 header .nav-contain #nav a:hover {
@@ -120,16 +123,24 @@ header .nav-contain nav.social-link li a:hover {
   width: 100%;
   height: 1.1em;
   overflow: visible;
+  color: white;
+  fill: rgba(0, 0, 0, 0);
+  font-family: "Poppins", sans-serif;
   font-size: 120px;
   font-weight: 700;
-  line-height: 1;
-  fill: transparent;
-  stroke: #ffffff;
+  letter-spacing: -0.45px;
+  line-height: 120px;
+  stroke: white;
   stroke-width: 1px;
 }
 
 #rythm .single-container #new-single-text {
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 48px;
 }
 
 #rythm #audio {
@@ -175,7 +186,7 @@ header .nav-contain nav.social-link li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .avergone .section-raw-c {
@@ -199,21 +210,42 @@ header .nav-contain nav.social-link li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 38px;
   border-radius: 8px;
+  overflow: hidden;
 }
 
-.avergone .section-raw-c h3 {
+.avergone .section-raw-c .avergone-text-container h3 {
+  color: #151515;
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
-  color: black;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 48px;
 }
 
-.avergone .section-raw-c p {
+.avergone .section-raw-c .avergone-text-container p {
+  color: rgba(21, 21, 21, 0.8);
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
+  font-weight: 300;
+  letter-spacing: -0.45px;
+  line-height: 25px;
 }
 
-.avergone .section-raw-c p .quote-style {
+.avergone .section-raw-c .avergone-text-container .quote-style {
+  margin-top: 16px;
+  padding: 12px 23px 0;
+  color: rgba(21, 21, 21, 0.8);
+  display: block;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.45px;
+  line-height: 1.5;
+}
+
+.avergone .section-raw-c .avergone-text-container p:last-child {
+  margin-top: 35px;
 }
 
 .disco-height {
@@ -276,12 +308,34 @@ header .nav-contain nav.social-link li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 305px;
   margin-bottom: 228px;
 }
 
-.latest #title-center {
-  padding-left: 860px;
+.latest > h3 {
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.latest > p {
+  margin-top: 6px;
+  max-width: 670px;
+  opacity: 0.8;
+  color: rgba(21, 21, 21, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.66;
 }
 
 .latest .image-latest {
@@ -296,20 +350,39 @@ header .nav-contain nav.social-link li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 25px;
+  margin-top: 40px;
 }
 
-.latest .text-latest {
+.latest .image-latest > .latest-image-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.latest .image-latest > .latest-image-container > h4 {
+  margin-top: 30px;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.latest .image-latest > .latest-image-container > p {
+  color: rgba(21, 21, 21, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .container-fluid {
