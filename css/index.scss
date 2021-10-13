@@ -389,7 +389,7 @@ header {
 }
 
 // mobile view
-
+// input
 @media (min-width: 360px) {
   .input {
     h2 {
@@ -407,5 +407,13 @@ header {
   }
   .button {
     padding: 1vh 2vh;
+  }
+}
+// recent news
+@media (min-width: 360px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
