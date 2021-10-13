@@ -75,4 +75,35 @@ footer p {
           justify-content: center;
   margin-top: 16vh;
 }
+
+@media screen and (min-width: 360px) {
+  footer {
+    height: 90vh;
+  }
+  footer .links ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .media-icons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .media-icons img {
+    margin: 0 2px 0 2px;
+    padding: 2px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

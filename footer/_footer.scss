@@ -27,6 +27,9 @@ footer {
         font-family: "Poppins", sans-serif;
       }
     }
+    //@media screen and (min-width: 320px) {
+    //border: 1px solid yellow;
+    //}
   }
   .media-icons {
     ul {
@@ -52,5 +55,31 @@ footer {
     margin-top: 16vh;
   }
 }
+// Tiff - media queries
 
+//mobile-view
+@media screen and (min-width: 360px) {
+  footer {
+    height: 90vh;
+    .links {
+      ul {
+        flex-direction: column;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .media-icons {
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    img {
+      margin: 0 2px 0 2px;
+      padding: 2px;
+    }
+  }
+}
 /*# sourceMappingURL=footer.css.map */
