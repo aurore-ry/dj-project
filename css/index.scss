@@ -163,27 +163,62 @@ header {
       }
     }
   }
+}
+.disco-height {
+  height: 20vh;
+  min-height: 20vh;
+  max-height: 20vh;
+}
+.disco {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 100%;
+  background-image: url("../images/home/homepage-latest-releases-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
-  .latest {
+  h3 {
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+  }
+  .button {
     display: flex;
-    flex-flow: column;
-    margin-top: 225px;
-    #title-center {
-      padding-left: 860px;
-    }
-    .image-latest {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      gap: 25px;
-    }
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 33, 224);
+    width: 222px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+}
 
-    .text-latest {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      gap: 300px;
-    }
+.latest {
+  display: flex;
+  flex-flow: column;
+  margin-top: 305px;
+  margin-bottom: 228px;
+  #title-center {
+    padding-left: 860px;
+  }
+  .image-latest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .text-latest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 300px;
   }
 }
 
