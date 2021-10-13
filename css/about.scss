@@ -4,13 +4,99 @@
   margin: 0;
   padding: 0;
 }
+.latest {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 305px;
+  margin-bottom: 228px;
+
+  & > h3 {
+    color: rgb(21, 21, 21);
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.33;
+  }
+
+  & > p {
+    margin-top: 6px;
+    max-width: 670px;
+    opacity: 0.8;
+    color: rgba(21, 21, 21, 0.8);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.66;
+  }
+
+  .image-latest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .image-latest > .latest-image-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    & > h4 {
+      margin-top: 30px;
+      color: rgb(21, 21, 21);
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.25;
+    }
+
+    & > p {
+      color: rgba(21, 21, 21, 0.8);
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
 #bg-color {
-  background-color: #898b8a;
+  background-color: #f6f6f6;
   .container {
-    background-image: url(/images/home/bg-circle-1.png) !important;
+    background-image: url(/images/home/bg-circle-2.png) !important;
     font-family: "Poppins", "sans serif";
     h2 {
       text-align: center;
+    }
+  }
+}
+.angerone {
+  h1 {
+    font-weight: 300;
+    font-size: 30px;
+    top: 30vh;
+  }
+  .dj-angerone {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact {
+    display: flex;
+    margin: 25vh 15vh;
+    .phone {
+      display: flex;
+      img {
+        height: 3vh;
+      }
+    }
+    .mail {
+      display: flex;
+      img {
+        height: 3vh;
+      }
     }
   }
 }
