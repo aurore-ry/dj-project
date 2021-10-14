@@ -5,7 +5,7 @@
 }
 
 #fanbase {
-  background-image: url(/images/home/bg-circle-1.png);
+  background-image: url(./images/home/bg-circle-1.png);
   background-color: #282828;
   color: #fefbf3;
   font-family: "Poppins", "sans serif";
@@ -60,7 +60,7 @@
 }
 
 .container-fluid {
-  background-image: url(/images/home/homepage-sponsors-background.jpg);
+  background-image: url(./images/home/homepage-sponsors-background.jpg);
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -217,7 +217,7 @@
 }
 
 .news .middle-card {
-  background: url(/images/home/homepage-news-background.jpg);
+  background: url(./images/home/homepage-news-background.jpg);
   -webkit-filter: grayscale(70%);
           filter: grayscale(70%);
   background-repeat: no-repeat;
@@ -297,7 +297,7 @@
 }
 
 .input {
-  background-image: url(/images/home/homepage-footer-background.jpg);
+  background-image: url(./images/home/homepage-footer-background.jpg);
   height: 80vh;
   background-repeat: cover;
   background-position: left;
