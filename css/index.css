@@ -426,7 +426,7 @@ header .nav-contain nav.social-link li a:hover {
 }
 
 .container-fluid {
-  background-image: url(/images/home/homepage-sponsors-background.jpg);
+  background-image: url(./images/home/homepage-sponsors-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -549,7 +549,7 @@ header .nav-contain nav.social-link li a:hover {
 }
 
 .news .middle-card {
-  background: url(/images/home/homepage-news-background.jpg);
+  background: url(./images/home/homepage-news-background.jpg);
   -webkit-filter: grayscale(70%);
           filter: grayscale(70%);
   background-repeat: no-repeat;
@@ -629,7 +629,7 @@ header .nav-contain nav.social-link li a:hover {
 }
 
 .input {
-  background-image: url(/images/home/homepage-footer-background.jpg);
+  background-image: url(./images/home/homepage-footer-background.jpg);
   height: 80vh;
   background-repeat: cover;
   background-position: left;
